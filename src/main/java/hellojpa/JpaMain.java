@@ -2,6 +2,8 @@ package hellojpa;
 
 import jakarta.persistence.*;
 
+import java.util.List;
+
 public class JpaMain {
 
     public static void main(String[] args) {
@@ -19,23 +21,28 @@ public class JpaMain {
         tx.begin();
 
         try{
+            //  비영속
         // 새로운 Member 객체를 생성
-        Member member = new Member();
-
-        // Member 객체의 ID를 1로 설정
-        member.setId(1L);
-
-        // Member 객체의 이름을 "hello"로 설정
-        member.setName("hello");
+//        Member member = new Member();
+//        // Member 객체의 ID를 1로 설정
+//        member.setId(1L);
+//        // Member 객체의 이름을 "hello"로 설정
+//        member.setName("hello");
 
         // 생성한 Member 객체를 영속성 컨텍스트에 저장
-        em.persist(member);
-        //멤버를 찾을 때
-        Member fm = em.find(Member.class,1L);
-        //멤버 삭제
-        em.remove(fm);
-        //수정
-        fm.setName("HelloJPA");
+//        em.persist(member);
+//        //멤버를 찾을 때
+//        Member fm = em.find(Member.class,1L);
+//        //멤버 삭제
+//        em.remove(fm);
+//        //수정
+//        fm.setName("HelloJPA");
+
+        //
+//        List<Member> result = em.createQuery("select m from Member as m",Member.class).getResultList();
+//        for(Member m:result){
+//            System.out.println(m.getName());
+//        }
 
         // 트랜잭션을 커밋하여 변경 사항을 데이터베이스에 반영
         tx.commit();
