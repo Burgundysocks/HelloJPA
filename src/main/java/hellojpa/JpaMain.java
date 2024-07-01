@@ -45,6 +45,44 @@ public class JpaMain {
 //        }
 
         // 트랜잭션을 커밋하여 변경 사항을 데이터베이스에 반영
+            Team team = new Team();
+            team.setName("Team 1");
+//            team.getMembers().add(member);
+            em.persist(team);
+
+            Member member = new Member();
+            member.setUsername("member1");
+            member.setTeam(team);
+            em.persist(member);
+
+            team.addMember(member);
+
+            //이게 꼭 붙어야함
+            em.flush();
+            em.clear();
+
+            Team findTeam = em.find(Team.class, team.getId());//1차 캐시
+            List<Member> members = findTeam.getMembers();
+
+            for(Member m : members){
+                System.out.println(m.getUsername());
+            }
+
+
+//            Member findMember = em.find(Member.class, member.getId());
+//            List<Member> members = findMember.getTeam().getMembers();
+//
+//            for(Member m : members){
+//                System.out.println("m = " + m.getUsername());
+//            }
+
+            //굉장히 객체지향스럽지 않다..?
+//            Long findTeamId = findMember.getTeamId();
+//            Team findTeam = em.find(Team.class, findTeamId);
+
+            //이렇게 해야함
+//            Team findTeam = findMember.getTeam();
+
         tx.commit();
         }
         catch (Exception e){

@@ -6,3 +6,9 @@
 
 ## 7/1
 다양한 엔티티 매핑
+
+단방향매핑과 양방향 매핑 공부
+
+@JoinColumn(name="Team_ID")
+
+@OneToMany(mappedBy = "team")공부 잊지않고 복습하기
