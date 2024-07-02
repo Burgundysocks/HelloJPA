@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42ee081d-6e52-4b8d-8bb0-d1a931147382" name="Changes" comment="단방향, 양방향 매핑">
+    <list default="true" id="42ee081d-6e52-4b8d-8bb0-d1a931147382" name="Changes" comment="일대일, 다대다, 다대일 매핑">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
@@ -48,7 +48,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2icgqHIBVhFOqkkimv3HECpLTga" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -118,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1719795468233</updated>
       <workItem from="1719795469244" duration="970000" />
-      <workItem from="1719796468063" duration="30483000" />
+      <workItem from="1719796468063" duration="40108000" />
     </task>
     <task id="LOCAL-00001" summary="jpa 공부 시작">
       <option name="closed" value="true" />
@@ -144,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719846711045</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="일대일, 다대다, 다대일 매핑">
+      <option name="closed" value="true" />
+      <created>1719897897793</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719897897793</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +164,7 @@
     <MESSAGE value="jpa 공부 시작" />
     <MESSAGE value="다양한 엔티티매핑" />
     <MESSAGE value="단방향, 양방향 매핑" />
-    <option name="LAST_COMMIT_MESSAGE" value="단방향, 양방향 매핑" />
+    <MESSAGE value="일대일, 다대다, 다대일 매핑" />
+    <option name="LAST_COMMIT_MESSAGE" value="일대일, 다대다, 다대일 매핑" />
   </component>
 </project>

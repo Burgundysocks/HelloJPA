@@ -3,6 +3,7 @@ package hellojpa;
 import jakarta.persistence.*;
 
 import java.util.Date;
+import java.util.List;
 
 @Entity
 public class Member {
@@ -25,6 +26,7 @@ public class Member {
     @OneToOne
     @JoinColumn(name="LOCKER_ID")
     private Locker locker;
+
 
 //    직접 할당: @Id만 사용
 //    자동 생성(@GeneratedValue)
