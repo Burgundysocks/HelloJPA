@@ -19,8 +19,12 @@ public class Member {
 //    private Long teamId;
 
     @ManyToOne //이거 중요!!! 한 팀에 여러명이 있을 수 있기에
-    @JoinColumn(name="Team_ID")
+    @JoinColumn(name="TEAM_ID")
     private Team team;
+
+    @OneToOne
+    @JoinColumn(name="LOCKER_ID")
+    private Locker locker;
 
 //    직접 할당: @Id만 사용
 //    자동 생성(@GeneratedValue)
