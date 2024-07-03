@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42ee081d-6e52-4b8d-8bb0-d1a931147382" name="Changes" comment="상속관계">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/MemberEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="42ee081d-6e52-4b8d-8bb0-d1a931147382" name="Changes" comment="값타입, 임베디드 타입">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/Team.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Address.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +33,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Burgundysocks/HelloJPA.git&quot;,
-    &quot;accountId&quot;: &quot;a6ac516f-cbd0-4605-b3d2-59169ea43000&quot;
+    &quot;accountId&quot;: &quot;34bc03ca-6621-4eca-be21-df95fb8ed623&quot;
   }
 }</component>
   <component name="MavenImportPreferences">
@@ -73,7 +67,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.selected.configurable": "preferences.general",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -141,7 +135,8 @@
       <updated>1719795468233</updated>
       <workItem from="1719795469244" duration="970000" />
       <workItem from="1719796468063" duration="42605000" />
-      <workItem from="1719976974475" duration="1579000" />
+      <workItem from="1719976974475" duration="1694000" />
+      <workItem from="1719979277642" duration="3920000" />
     </task>
     <task id="LOCAL-00001" summary="jpa 공부 시작">
       <option name="closed" value="true" />
@@ -183,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719919630962</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="값타입, 임베디드 타입">
+      <option name="closed" value="true" />
+      <created>1719979191779</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719979191779</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +198,8 @@
     <MESSAGE value="단방향, 양방향 매핑" />
     <MESSAGE value="일대일, 다대다, 다대일 매핑" />
     <MESSAGE value="상속관계" />
-    <option name="LAST_COMMIT_MESSAGE" value="상속관계" />
+    <MESSAGE value="값타입, 임베디드 타입" />
+    <option name="LAST_COMMIT_MESSAGE" value="값타입, 임베디드 타입" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
